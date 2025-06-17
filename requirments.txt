@@ -1,0 +1,25 @@
+# Core scraping libraries
+telethon==1.32.1
+
+# AI processing
+google-generativeai==0.3.2
+
+# Notifications and HTTP
+requests==2.31.0
+aiohttp==3.8.6
+
+# Configuration and utilities
+python-dotenv==1.0.0
+pyyaml==6.0.1
+
+# Logging and monitoring
+colorlog==6.7.0
+
+# Image processing
+Pillow==10.0.1
+
+# Optional: Firebase (if using FCM notifications)
+# firebase-admin==6.2.0
+
+# Optional: Discord (use with caution - violates ToS)
+# discord.py-self==2.0.0
