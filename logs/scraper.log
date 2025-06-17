@@ -1,0 +1,637 @@
+2025-06-12 19:16:43,264 - MessageScraper - INFO - 🚀 Message Scraper App initializing...
+2025-06-12 19:16:43,264 - MessageScraper - INFO - 🤖 Initializing AI processor...
+2025-06-12 19:16:43,264 - MessageScraper - INFO - 🤖 Gemini AI processor initialized
+2025-06-12 19:16:47,352 - MessageScraper - ERROR - ❌ Gemini API error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 12
+}
+]
+2025-06-12 19:16:47,355 - MessageScraper - ERROR - ❌ Gemini API test failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 12
+}
+]
+2025-06-12 19:16:47,355 - MessageScraper - ERROR - ❌ Failed to connect to Gemini AI
+2025-06-12 19:16:47,356 - MessageScraper - ERROR - ❌ Failed to initialize, cannot start monitoring
+2025-06-12 19:17:04,478 - MessageScraper - INFO - 🚀 Message Scraper App initializing...
+2025-06-12 19:17:04,478 - MessageScraper - INFO - 🤖 Initializing AI processor...
+2025-06-12 19:17:04,478 - MessageScraper - INFO - 🤖 Gemini AI processor initialized
+2025-06-12 19:17:08,326 - MessageScraper - ERROR - ❌ Gemini API error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 51
+}
+]
+2025-06-12 19:17:08,327 - MessageScraper - ERROR - ❌ Gemini API test failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 51
+}
+]
+2025-06-12 19:17:08,328 - MessageScraper - ERROR - ❌ Failed to connect to Gemini AI
+2025-06-12 19:17:08,328 - MessageScraper - ERROR - ❌ Failed to initialize, cannot start monitoring
+2025-06-12 19:20:08,823 - MessageScraper - INFO - 🚀 Message Scraper App initializing...
+2025-06-12 19:20:08,824 - MessageScraper - INFO - 🤖 Initializing AI processor...
+2025-06-12 19:20:08,824 - MessageScraper - INFO - 🤖 Gemini AI processor initialized
+2025-06-12 19:20:11,022 - MessageScraper - INFO - ✅ Gemini API test successful with gemini-1.5-flash
+2025-06-12 19:20:11,023 - MessageScraper - INFO - 📱 Initializing notification system...
+2025-06-12 19:20:11,023 - MessageScraper - INFO - 📱 FCM Notifier initialized
+2025-06-12 19:20:11,023 - MessageScraper - WARNING - ⚠️ FCM config issues: ['FCM server key format appears invalid', 'FCM device token appears too short']
+2025-06-12 19:20:11,023 - MessageScraper - INFO - 📱 Pushbullet Notifier initialized
+2025-06-12 19:20:11,024 - MessageScraper - INFO - 📱 Initializing Telegram scraper...
+2025-06-12 19:20:11,071 - MessageScraper - INFO - 🔗 Connecting to Telegram...
+2025-06-12 19:20:31,448 - MessageScraper - INFO - ✅ Connected as Vedant (No username)
+2025-06-12 19:20:31,449 - MessageScraper - INFO - 🧪 Testing notification system...
+2025-06-12 19:20:31,449 - MessageScraper - INFO - ✅ All components initialized successfully
+2025-06-12 19:20:31,449 - MessageScraper - INFO - 🚀 Message Scraper starting up
+2025-06-12 19:20:31,450 - MessageScraper - INFO - 📊 Config: {'telegram_chats': 0, 'notification_method': 'fcm', 'ai_model': 'gemini-1.5-pro', 'debug_mode': False}
+2025-06-12 19:20:31,450 - MessageScraper - INFO - 🎯 Message scraper is now monitoring for new messages...
+2025-06-12 19:20:31,450 - MessageScraper - ERROR - ❌ No valid chats to monitor
+2025-06-12 19:20:31,450 - MessageScraper - INFO - 🔄 Starting message processing queue...
+2025-06-12 19:20:43,769 - MessageScraper - INFO - 🛑 Received signal 2, initiating shutdown...
+2025-06-12 19:21:25,789 - MessageScraper - INFO - 🛑 Received signal 2, initiating shutdown...
+2025-06-12 19:21:26,850 - MessageScraper - INFO - 🛑 Received signal 2, initiating shutdown...
+2025-06-12 19:21:27,383 - MessageScraper - INFO - 🛑 Received signal 2, initiating shutdown...
+2025-06-12 19:21:27,724 - MessageScraper - INFO - 🛑 Received signal 2, initiating shutdown...
+2025-06-12 19:21:28,027 - MessageScraper - INFO - 🛑 Received signal 2, initiating shutdown...
+2025-06-12 19:21:28,372 - MessageScraper - INFO - 🛑 Received signal 2, initiating shutdown...
+2025-06-12 19:21:28,716 - MessageScraper - INFO - 🛑 Received signal 2, initiating shutdown...
+2025-06-12 19:35:46,795 - MessageScraper - INFO - 🚀 Message Scraper App initializing...
+2025-06-12 19:35:46,795 - MessageScraper - INFO - 🤖 Initializing AI processor...
+2025-06-12 19:35:46,795 - MessageScraper - INFO - 🤖 Gemini AI processor initialized
+2025-06-12 19:35:48,922 - MessageScraper - INFO - ✅ Gemini API test successful with gemini-1.5-flash
+2025-06-12 19:35:48,922 - MessageScraper - INFO - 📱 Initializing notification system...
+2025-06-12 19:35:48,922 - MessageScraper - INFO - 📱 Pushbullet Notifier initialized
+2025-06-12 19:35:48,922 - MessageScraper - INFO - 📱 Initializing Telegram scraper...
+2025-06-12 19:35:48,925 - MessageScraper - INFO - 🔗 Connecting to Telegram...
+2025-06-12 19:35:49,861 - MessageScraper - INFO - ✅ Connected as Vedant (No username)
+2025-06-12 19:35:49,862 - MessageScraper - INFO - 🧪 Testing notification system...
+2025-06-12 19:35:49,862 - MessageScraper - INFO - ✅ All components initialized successfully
+2025-06-12 19:35:49,862 - MessageScraper - INFO - 🚀 Message Scraper starting up
+2025-06-12 19:35:49,863 - MessageScraper - INFO - 📊 Config: {'telegram_chats': 2, 'notification_method': 'pushbullet', 'ai_model': 'gemini-1.5-flash', 'debug_mode': False}
+2025-06-12 19:35:49,863 - MessageScraper - INFO - 🎯 Message scraper is now monitoring for new messages...
+2025-06-12 19:35:49,864 - MessageScraper - INFO - 🔄 Starting message processing queue...
+2025-06-12 19:35:49,971 - MessageScraper - INFO - ✅ Chat validated: Vedant (ID: 1786888960)
+2025-06-12 19:35:49,972 - MessageScraper - ERROR - ❌ Failed to get chat info for Affiliate Marketing: Cannot find any entity corresponding to "Affiliate Marketing"
+2025-06-12 19:35:49,973 - MessageScraper - WARNING - ⚠️ Invalid chat: Affiliate Marketing
+2025-06-12 19:35:49,973 - MessageScraper - INFO - 👀 Starting to monitor 1 chats...
+2025-06-12 19:35:49,973 - MessageScraper - INFO - ✅ Telegram monitoring started
+2025-06-12 19:38:28,239 - MessageScraper - INFO - 🛑 Received signal 2, initiating shutdown...
+2025-06-12 19:39:28,390 - MessageScraper - INFO - 🚀 Message Scraper App initializing...
+2025-06-12 19:39:28,390 - MessageScraper - INFO - 🤖 Initializing AI processor...
+2025-06-12 19:39:28,390 - MessageScraper - INFO - 🤖 Gemini AI processor initialized
+2025-06-12 19:39:30,665 - MessageScraper - INFO - ✅ Gemini API test successful with gemini-1.5-flash
+2025-06-12 19:39:30,666 - MessageScraper - INFO - 📱 Initializing notification system...
+2025-06-12 19:39:30,666 - MessageScraper - INFO - 📱 Pushbullet Notifier initialized
+2025-06-12 19:39:30,667 - MessageScraper - INFO - 📱 Initializing Telegram scraper...
+2025-06-12 19:39:30,676 - MessageScraper - INFO - 🔗 Connecting to Telegram...
+2025-06-12 19:39:31,559 - MessageScraper - INFO - ✅ Connected as Vedant (No username)
+2025-06-12 19:39:31,560 - MessageScraper - INFO - 🧪 Testing notification system...
+2025-06-12 19:39:31,561 - MessageScraper - INFO - ✅ All components initialized successfully
+2025-06-12 19:39:31,561 - MessageScraper - INFO - 🚀 Message Scraper starting up
+2025-06-12 19:39:31,561 - MessageScraper - INFO - 📊 Config: {'telegram_chats': 2, 'notification_method': 'pushbullet', 'ai_model': 'gemini-1.5-flash', 'debug_mode': False}
+2025-06-12 19:39:31,562 - MessageScraper - INFO - 🎯 Message scraper is now monitoring for new messages...
+2025-06-12 19:39:31,562 - MessageScraper - INFO - 🔄 Starting message processing queue...
+2025-06-12 19:39:31,682 - MessageScraper - INFO - ✅ Chat validated: Vedant (ID: 1786888960)
+2025-06-12 19:39:31,925 - MessageScraper - INFO - ✅ Chat validated: Dharmishtha (ID: 811761632)
+2025-06-12 19:39:31,926 - MessageScraper - INFO - 👀 Starting to monitor 2 chats...
+2025-06-12 19:39:31,926 - MessageScraper - INFO - ✅ Telegram monitoring started
+2025-06-12 19:39:39,354 - MessageScraper - INFO - 📨 Message from Telegram/Dharmishtha | Dharmishtha: Hey
+2025-06-12 19:39:39,354 - MessageScraper - INFO - 🔄 Processing message 475...
+2025-06-12 19:39:43,272 - MessageScraper - INFO - 🤖 AI processed text message in 3.92s
+2025-06-12 19:39:44,452 - MessageScraper - INFO - 📱 Notification ✅ sent via Pushbullet
+2025-06-12 19:39:44,454 - MessageScraper - INFO - ✅ Message 475 processed and notification sent
+2025-06-12 19:41:37,886 - MessageScraper - INFO - 📨 Message from Telegram/Dharmishtha | Dharmishtha: Hello
+2025-06-12 19:41:37,886 - MessageScraper - INFO - 🔄 Processing message 476...
+2025-06-12 19:41:41,892 - MessageScraper - INFO - 🤖 AI processed text message in 4.01s
+2025-06-12 19:41:42,876 - MessageScraper - INFO - 📱 Notification ✅ sent via Pushbullet
+2025-06-12 19:41:42,877 - MessageScraper - INFO - ✅ Message 476 processed and notification sent
+2025-06-12 19:44:31,575 - MessageScraper - INFO - 📊 Status: 2 messages processed, uptime: 0:05:00.013793
+2025-06-12 19:49:31,588 - MessageScraper - INFO - 📊 Status: 2 messages processed, uptime: 0:10:00.027323
+2025-06-12 19:54:24,807 - MessageScraper - INFO - 📨 Message from Telegram/Dharmishtha | Dharmishtha: Hey
+2025-06-12 19:54:24,808 - MessageScraper - INFO - 🔄 Processing message 477...
+2025-06-12 19:54:30,244 - MessageScraper - INFO - 🤖 AI processed text message in 5.44s
+2025-06-12 19:54:31,207 - MessageScraper - INFO - 📱 Notification ✅ sent via Pushbullet
+2025-06-12 19:54:31,207 - MessageScraper - INFO - ✅ Message 477 processed and notification sent
+2025-06-12 19:54:31,590 - MessageScraper - INFO - 📊 Status: 3 messages processed, uptime: 0:15:00.028877
+2025-06-12 19:55:24,349 - MessageScraper - INFO - 🚀 Message Scraper App initializing...
+2025-06-12 19:55:24,350 - MessageScraper - INFO - 🤖 Initializing AI processor...
+2025-06-12 19:55:24,350 - MessageScraper - INFO - 🤖 Gemini AI processor initialized
+2025-06-12 19:55:26,496 - MessageScraper - INFO - ✅ Gemini API test successful with gemini-1.5-flash
+2025-06-12 19:55:26,496 - MessageScraper - INFO - 📱 Initializing notification system...
+2025-06-12 19:55:26,496 - MessageScraper - ERROR - ❌ Unknown notification method: fcm_v1
+2025-06-12 19:55:26,496 - MessageScraper - INFO - 📱 Defaulting to Pushbullet...
+2025-06-12 19:55:26,496 - MessageScraper - INFO - 📱 Pushbullet Notifier initialized
+2025-06-12 19:55:26,496 - MessageScraper - INFO - 📱 Initializing Telegram scraper...
+2025-06-12 19:55:26,499 - MessageScraper - INFO - 🔗 Connecting to Telegram...
+2025-06-12 19:55:27,451 - MessageScraper - INFO - ✅ Connected as Vedant (No username)
+2025-06-12 19:55:27,451 - MessageScraper - INFO - 🧪 Testing notification system...
+2025-06-12 19:55:27,452 - MessageScraper - INFO - ✅ All components initialized successfully
+2025-06-12 19:55:27,452 - MessageScraper - INFO - 🚀 Message Scraper starting up
+2025-06-12 19:55:27,452 - MessageScraper - INFO - 📊 Config: {'telegram_chats': 2, 'notification_method': 'fcm_v1', 'ai_model': 'gemini-1.5-flash', 'debug_mode': False, 'notifier_type': 'PushbulletNotifier'}
+2025-06-12 19:55:27,453 - MessageScraper - INFO - 🎯 Message scraper is now monitoring for new messages...
+2025-06-12 19:55:27,453 - MessageScraper - INFO - 🔄 Starting message processing queue...
+2025-06-12 19:55:27,565 - MessageScraper - INFO - ✅ Chat validated: Vedant (ID: 1786888960)
+2025-06-12 19:55:27,692 - MessageScraper - INFO - ✅ Chat validated: Dharmishtha (ID: 811761632)
+2025-06-12 19:55:27,693 - MessageScraper - INFO - 👀 Starting to monitor 2 chats...
+2025-06-12 19:55:27,694 - MessageScraper - INFO - ✅ Telegram monitoring started
+2025-06-12 19:57:57,747 - MessageScraper - INFO - 🛑 Received signal 2, initiating shutdown...
+2025-06-12 20:02:28,483 - MessageScraper - INFO - 🚀 Message Scraper App initializing...
+2025-06-12 20:02:28,483 - MessageScraper - INFO - 🤖 Initializing AI processor...
+2025-06-12 20:02:28,483 - MessageScraper - INFO - 🤖 Gemini AI processor initialized
+2025-06-12 20:02:31,286 - MessageScraper - INFO - ✅ Gemini API test successful with gemini-1.5-flash
+2025-06-12 20:02:31,287 - MessageScraper - INFO - 📱 Initializing notification system...
+2025-06-12 20:02:31,287 - MessageScraper - INFO - 📱 Using FCM V1 API (recommended)
+2025-06-12 20:02:31,288 - MessageScraper - ERROR - ❌ Firebase service account file not found: config/firebase-service-account.json
+2025-06-12 20:02:31,288 - MessageScraper - INFO - 📱 FCM V1 Notifier initialized
+2025-06-12 20:02:31,288 - MessageScraper - WARNING - ⚠️ FCM V1 config issues: ['FCM service account file not found: config/firebase-service-account.json']
+2025-06-12 20:02:31,288 - MessageScraper - INFO - 📱 Falling back to legacy FCM...
+2025-06-12 20:02:31,289 - MessageScraper - INFO - 📱 FCM Notifier initialized
+2025-06-12 20:02:31,289 - MessageScraper - WARNING - ⚠️ Legacy FCM config issues: ['FCM server key is required']
+2025-06-12 20:02:31,289 - MessageScraper - INFO - 📱 Falling back to Pushbullet...
+2025-06-12 20:02:31,289 - MessageScraper - INFO - 📱 Pushbullet Notifier initialized
+2025-06-12 20:02:31,289 - MessageScraper - INFO - 📱 Initializing Telegram scraper...
+2025-06-12 20:02:31,292 - MessageScraper - INFO - 🔗 Connecting to Telegram...
+2025-06-12 20:02:32,238 - MessageScraper - INFO - ✅ Connected as Vedant (No username)
+2025-06-12 20:02:32,238 - MessageScraper - INFO - 🧪 Testing notification system...
+2025-06-12 20:02:32,239 - MessageScraper - INFO - ✅ All components initialized successfully
+2025-06-12 20:02:32,239 - MessageScraper - INFO - 🚀 Message Scraper starting up
+2025-06-12 20:02:32,239 - MessageScraper - INFO - 📊 Config: {'telegram_chats': 2, 'notification_method': 'fcm_v1', 'ai_model': 'gemini-1.5-flash', 'debug_mode': False, 'notifier_type': 'PushbulletNotifier'}
+2025-06-12 20:02:32,239 - MessageScraper - INFO - 🎯 Message scraper is now monitoring for new messages...
+2025-06-12 20:02:32,240 - MessageScraper - INFO - 🛑 Press Ctrl+C to stop monitoring
+2025-06-12 20:02:32,240 - MessageScraper - INFO - 🔄 Starting message processing queue...
+2025-06-12 20:02:32,345 - MessageScraper - INFO - ✅ Chat validated: Vedant (ID: 1786888960)
+2025-06-12 20:02:32,462 - MessageScraper - INFO - ✅ Chat validated: Dharmishtha (ID: 811761632)
+2025-06-12 20:02:32,463 - MessageScraper - INFO - 👀 Starting to monitor 2 chats...
+2025-06-12 20:02:32,463 - MessageScraper - INFO - ✅ Telegram monitoring started
+2025-06-12 20:02:33,862 - MessageScraper - INFO - 🛑 Signal 2 received, initiating graceful shutdown...
+2025-06-12 20:02:33,870 - MessageScraper - INFO - 🔌 Disconnecting from Telegram...
+2025-06-12 20:02:33,876 - MessageScraper - INFO - ✅ Telegram client disconnected
+2025-06-12 20:02:43,091 - MessageScraper - INFO - 🚀 Message Scraper App initializing...
+2025-06-12 20:02:43,091 - MessageScraper - INFO - 🤖 Initializing AI processor...
+2025-06-12 20:02:43,091 - MessageScraper - INFO - 🤖 Gemini AI processor initialized
+2025-06-12 20:02:45,368 - MessageScraper - INFO - ✅ Gemini API test successful with gemini-1.5-flash
+2025-06-12 20:02:45,369 - MessageScraper - INFO - 📱 Initializing notification system...
+2025-06-12 20:02:45,369 - MessageScraper - INFO - 📱 Using FCM V1 API (recommended)
+2025-06-12 20:02:45,370 - MessageScraper - ERROR - ❌ Firebase service account file not found: config/firebase-service-account.json
+2025-06-12 20:02:45,370 - MessageScraper - INFO - 📱 FCM V1 Notifier initialized
+2025-06-12 20:02:45,371 - MessageScraper - WARNING - ⚠️ FCM V1 config issues: ['FCM service account file not found: config/firebase-service-account.json']
+2025-06-12 20:02:45,371 - MessageScraper - INFO - 📱 Falling back to legacy FCM...
+2025-06-12 20:02:45,372 - MessageScraper - INFO - 📱 FCM Notifier initialized
+2025-06-12 20:02:45,372 - MessageScraper - WARNING - ⚠️ Legacy FCM config issues: ['FCM server key is required']
+2025-06-12 20:02:45,372 - MessageScraper - INFO - 📱 Falling back to Pushbullet...
+2025-06-12 20:02:45,373 - MessageScraper - INFO - 📱 Pushbullet Notifier initialized
+2025-06-12 20:02:45,373 - MessageScraper - INFO - 📱 Initializing Telegram scraper...
+2025-06-12 20:02:45,375 - MessageScraper - INFO - 🔗 Connecting to Telegram...
+2025-06-12 20:02:46,283 - MessageScraper - INFO - ✅ Connected as Vedant (No username)
+2025-06-12 20:02:46,284 - MessageScraper - INFO - 🧪 Testing notification system...
+2025-06-12 20:02:46,284 - MessageScraper - INFO - ✅ All components initialized successfully
+2025-06-12 20:02:46,285 - MessageScraper - INFO - 🚀 Message Scraper starting up
+2025-06-12 20:02:46,285 - MessageScraper - INFO - 📊 Config: {'telegram_chats': 2, 'notification_method': 'fcm_v1', 'ai_model': 'gemini-1.5-flash', 'debug_mode': False, 'notifier_type': 'PushbulletNotifier'}
+2025-06-12 20:02:46,285 - MessageScraper - INFO - 🎯 Message scraper is now monitoring for new messages...
+2025-06-12 20:02:46,285 - MessageScraper - INFO - 🛑 Press Ctrl+C to stop monitoring
+2025-06-12 20:02:46,286 - MessageScraper - INFO - 🔄 Starting message processing queue...
+2025-06-12 20:02:46,400 - MessageScraper - INFO - ✅ Chat validated: Vedant (ID: 1786888960)
+2025-06-12 20:02:46,509 - MessageScraper - INFO - ✅ Chat validated: Dharmishtha (ID: 811761632)
+2025-06-12 20:02:46,510 - MessageScraper - INFO - 👀 Starting to monitor 2 chats...
+2025-06-12 20:02:46,510 - MessageScraper - INFO - ✅ Telegram monitoring started
+2025-06-12 20:02:52,806 - MessageScraper - INFO - 📨 Message from Telegram/Dharmishtha | Dharmishtha: Hey
+2025-06-12 20:02:52,807 - MessageScraper - INFO - 🔄 Processing message 478...
+2025-06-12 20:02:56,711 - MessageScraper - INFO - 🤖 AI processed text message in 3.90s
+2025-06-12 20:02:57,706 - MessageScraper - INFO - 📱 Notification ✅ sent via Pushbullet
+2025-06-12 20:02:57,708 - MessageScraper - INFO - ✅ Message 478 processed and notification sent
+2025-06-12 20:05:14,318 - MessageScraper - INFO - 🛑 Signal 2 received, initiating graceful shutdown...
+2025-06-12 20:05:14,327 - MessageScraper - INFO - 🔌 Disconnecting from Telegram...
+2025-06-12 20:05:14,337 - MessageScraper - INFO - ✅ Telegram client disconnected
+2025-06-12 20:05:19,489 - MessageScraper - INFO - 🚀 Message Scraper App initializing...
+2025-06-12 20:05:19,489 - MessageScraper - INFO - 🤖 Initializing AI processor...
+2025-06-12 20:05:19,489 - MessageScraper - INFO - 🤖 Gemini AI processor initialized
+2025-06-12 20:05:21,737 - MessageScraper - INFO - ✅ Gemini API test successful with gemini-1.5-flash
+2025-06-12 20:05:21,738 - MessageScraper - INFO - 📱 Initializing notification system...
+2025-06-12 20:05:21,738 - MessageScraper - INFO - 📱 Using FCM V1 API (recommended)
+2025-06-12 20:05:21,768 - MessageScraper - INFO - ✅ Firebase Admin SDK initialized with new app
+2025-06-12 20:05:21,769 - MessageScraper - INFO - 📱 FCM V1 Notifier initialized
+2025-06-12 20:05:21,769 - MessageScraper - INFO - 📱 Initializing Telegram scraper...
+2025-06-12 20:05:21,771 - MessageScraper - INFO - 🔗 Connecting to Telegram...
+2025-06-12 20:05:22,736 - MessageScraper - INFO - ✅ Connected as Vedant (No username)
+2025-06-12 20:05:22,737 - MessageScraper - INFO - 🧪 Testing notification system...
+2025-06-12 20:05:22,737 - MessageScraper - INFO - 🧪 Sending FCM V1 test notification...
+2025-06-12 20:05:24,149 - MessageScraper - ERROR - ❌ FCM V1 notification error: Message.data must not contain non-string values.
+2025-06-12 20:05:24,150 - MessageScraper - ERROR - ❌ FCM V1 test notification failed
+2025-06-12 20:05:24,150 - MessageScraper - INFO - ✅ All components initialized successfully
+2025-06-12 20:05:24,151 - MessageScraper - INFO - 🚀 Message Scraper starting up
+2025-06-12 20:05:24,151 - MessageScraper - INFO - 📊 Config: {'telegram_chats': 2, 'notification_method': 'fcm_v1', 'ai_model': 'gemini-1.5-flash', 'debug_mode': False, 'notifier_type': 'FCMv1Notifier'}
+2025-06-12 20:05:24,152 - MessageScraper - INFO - 🎯 Message scraper is now monitoring for new messages...
+2025-06-12 20:05:24,152 - MessageScraper - INFO - 🛑 Press Ctrl+C to stop monitoring
+2025-06-12 20:05:24,152 - MessageScraper - INFO - 🔄 Starting message processing queue...
+2025-06-12 20:05:24,307 - MessageScraper - INFO - ✅ Chat validated: Vedant (ID: 1786888960)
+2025-06-12 20:05:24,450 - MessageScraper - INFO - ✅ Chat validated: Dharmishtha (ID: 811761632)
+2025-06-12 20:05:24,450 - MessageScraper - INFO - 👀 Starting to monitor 2 chats...
+2025-06-12 20:05:24,451 - MessageScraper - INFO - ✅ Telegram monitoring started
+2025-06-12 20:06:20,531 - MessageScraper - INFO - 🛑 Signal 2 received, initiating graceful shutdown...
+2025-06-12 20:06:20,539 - MessageScraper - INFO - 🔌 Disconnecting from Telegram...
+2025-06-12 20:06:20,546 - MessageScraper - INFO - ✅ Telegram client disconnected
+2025-06-12 20:06:25,590 - MessageScraper - INFO - 🚀 Message Scraper App initializing...
+2025-06-12 20:06:25,590 - MessageScraper - INFO - 🤖 Initializing AI processor...
+2025-06-12 20:06:25,590 - MessageScraper - INFO - 🤖 Gemini AI processor initialized
+2025-06-12 20:06:28,096 - MessageScraper - INFO - ✅ Gemini API test successful with gemini-1.5-flash
+2025-06-12 20:06:28,097 - MessageScraper - INFO - 📱 Initializing notification system...
+2025-06-12 20:06:28,097 - MessageScraper - INFO - 📱 Using FCM V1 API (recommended)
+2025-06-12 20:06:28,131 - MessageScraper - INFO - ✅ Firebase Admin SDK initialized with new app
+2025-06-12 20:06:28,131 - MessageScraper - INFO - 📱 FCM V1 Notifier initialized
+2025-06-12 20:06:28,132 - MessageScraper - INFO - 📱 Initializing Telegram scraper...
+2025-06-12 20:06:28,135 - MessageScraper - INFO - 🔗 Connecting to Telegram...
+2025-06-12 20:06:29,335 - MessageScraper - INFO - ✅ Connected as Vedant (No username)
+2025-06-12 20:06:29,337 - MessageScraper - INFO - 🧪 Testing notification system...
+2025-06-12 20:06:29,337 - MessageScraper - INFO - 🧪 Sending FCM V1 test notification...
+2025-06-12 20:06:30,659 - MessageScraper - ERROR - ❌ FCM sender ID mismatch
+2025-06-12 20:06:30,659 - MessageScraper - ERROR - ❌ FCM V1 test notification failed
+2025-06-12 20:06:30,660 - MessageScraper - INFO - ✅ All components initialized successfully
+2025-06-12 20:06:30,660 - MessageScraper - INFO - 🚀 Message Scraper starting up
+2025-06-12 20:06:30,660 - MessageScraper - INFO - 📊 Config: {'telegram_chats': 2, 'notification_method': 'fcm_v1', 'ai_model': 'gemini-1.5-flash', 'debug_mode': False, 'notifier_type': 'FCMv1Notifier'}
+2025-06-12 20:06:30,661 - MessageScraper - INFO - 🎯 Message scraper is now monitoring for new messages...
+2025-06-12 20:06:30,661 - MessageScraper - INFO - 🛑 Press Ctrl+C to stop monitoring
+2025-06-12 20:06:30,662 - MessageScraper - INFO - 🔄 Starting message processing queue...
+2025-06-12 20:06:30,791 - MessageScraper - INFO - ✅ Chat validated: Vedant (ID: 1786888960)
+2025-06-12 20:06:30,911 - MessageScraper - INFO - ✅ Chat validated: Dharmishtha (ID: 811761632)
+2025-06-12 20:06:30,911 - MessageScraper - INFO - 👀 Starting to monitor 2 chats...
+2025-06-12 20:06:30,911 - MessageScraper - INFO - ✅ Telegram monitoring started
+2025-06-12 20:09:51,400 - MessageScraper - INFO - 🛑 Signal 2 received, initiating graceful shutdown...
+2025-06-12 20:09:51,407 - MessageScraper - INFO - 🔌 Disconnecting from Telegram...
+2025-06-12 20:09:51,413 - MessageScraper - INFO - ✅ Telegram client disconnected
+2025-06-12 20:10:49,740 - MessageScraper - INFO - 🚀 Message Scraper App initializing...
+2025-06-12 20:10:49,740 - MessageScraper - INFO - 🤖 Initializing AI processor...
+2025-06-12 20:10:49,741 - MessageScraper - INFO - 🤖 Gemini AI processor initialized
+2025-06-12 20:10:52,387 - MessageScraper - INFO - ✅ Gemini API test successful with gemini-1.5-flash
+2025-06-12 20:10:52,389 - MessageScraper - INFO - 📱 Initializing notification system...
+2025-06-12 20:10:52,390 - MessageScraper - INFO - 📱 Using FCM V1 API (recommended)
+2025-06-12 20:10:52,419 - MessageScraper - INFO - ✅ Firebase Admin SDK initialized with new app
+2025-06-12 20:10:52,419 - MessageScraper - INFO - 📱 FCM V1 Notifier initialized
+2025-06-12 20:10:52,420 - MessageScraper - INFO - 📱 Initializing Telegram scraper...
+2025-06-12 20:10:52,424 - MessageScraper - INFO - 🔗 Connecting to Telegram...
+2025-06-12 20:10:53,550 - MessageScraper - INFO - ✅ Connected as Vedant (No username)
+2025-06-12 20:10:53,550 - MessageScraper - INFO - 🧪 Testing notification system...
+2025-06-12 20:10:53,550 - MessageScraper - INFO - 🧪 Sending FCM V1 test notification...
+2025-06-12 20:10:54,853 - MessageScraper - ERROR - ❌ FCM sender ID mismatch
+2025-06-12 20:10:54,855 - MessageScraper - ERROR - ❌ FCM V1 test notification failed
+2025-06-12 20:10:54,856 - MessageScraper - INFO - ✅ All components initialized successfully
+2025-06-12 20:10:54,856 - MessageScraper - INFO - 🚀 Message Scraper starting up
+2025-06-12 20:10:54,857 - MessageScraper - INFO - 📊 Config: {'telegram_chats': 2, 'notification_method': 'fcm_v1', 'ai_model': 'gemini-1.5-flash', 'debug_mode': False, 'notifier_type': 'FCMv1Notifier'}
+2025-06-12 20:10:54,857 - MessageScraper - INFO - 🎯 Message scraper is now monitoring for new messages...
+2025-06-12 20:10:54,858 - MessageScraper - INFO - 🛑 Press Ctrl+C to stop monitoring
+2025-06-12 20:10:54,858 - MessageScraper - INFO - 🔄 Starting message processing queue...
+2025-06-12 20:10:54,967 - MessageScraper - INFO - ✅ Chat validated: Vedant (ID: 1786888960)
+2025-06-12 20:10:55,091 - MessageScraper - INFO - ✅ Chat validated: Dharmishtha (ID: 811761632)
+2025-06-12 20:10:55,091 - MessageScraper - INFO - 👀 Starting to monitor 2 chats...
+2025-06-12 20:10:55,091 - MessageScraper - INFO - ✅ Telegram monitoring started
+2025-06-12 20:10:59,938 - MessageScraper - INFO - 📨 Message from Telegram/Dharmishtha | Dharmishtha: Hey
+2025-06-12 20:10:59,938 - MessageScraper - INFO - 🔄 Processing message 479...
+2025-06-12 20:11:03,877 - MessageScraper - INFO - 🤖 AI processed text message in 3.94s
+2025-06-12 20:11:04,041 - MessageScraper - ERROR - ❌ FCM sender ID mismatch
+2025-06-12 20:11:04,042 - MessageScraper - ERROR - ❌ Failed to send notification for message 479
+2025-06-12 20:11:04,356 - MessageScraper - ERROR - ❌ FCM sender ID mismatch
+2025-06-12 20:11:21,069 - MessageScraper - INFO - 📨 Message from Telegram/Dharmishtha | Dharmishtha: He
+2025-06-12 20:11:21,071 - MessageScraper - INFO - 🔄 Processing message 480...
+2025-06-12 20:11:25,002 - MessageScraper - INFO - 🤖 AI processed text message in 3.93s
+2025-06-12 20:11:25,212 - MessageScraper - ERROR - ❌ FCM sender ID mismatch
+2025-06-12 20:11:25,213 - MessageScraper - ERROR - ❌ Failed to send notification for message 480
+2025-06-12 20:11:25,481 - MessageScraper - ERROR - ❌ FCM sender ID mismatch
+2025-06-12 20:12:34,578 - MessageScraper - INFO - 🛑 Signal 2 received, initiating graceful shutdown...
+2025-06-12 20:12:34,586 - MessageScraper - INFO - 🔌 Disconnecting from Telegram...
+2025-06-12 20:12:34,592 - MessageScraper - INFO - ✅ Telegram client disconnected
+2025-06-12 20:12:39,567 - MessageScraper - INFO - 🚀 Message Scraper App initializing...
+2025-06-12 20:12:39,569 - MessageScraper - INFO - 🤖 Initializing AI processor...
+2025-06-12 20:12:39,569 - MessageScraper - INFO - 🤖 Gemini AI processor initialized
+2025-06-12 20:12:41,678 - MessageScraper - INFO - ✅ Gemini API test successful with gemini-1.5-flash
+2025-06-12 20:12:41,679 - MessageScraper - INFO - 📱 Initializing notification system...
+2025-06-12 20:12:41,679 - MessageScraper - INFO - 📱 Using Pushbullet notifications
+2025-06-12 20:12:41,680 - MessageScraper - INFO - 📱 Pushbullet Notifier initialized
+2025-06-12 20:12:41,680 - MessageScraper - INFO - 📱 Initializing Telegram scraper...
+2025-06-12 20:12:41,687 - MessageScraper - INFO - 🔗 Connecting to Telegram...
+2025-06-12 20:12:42,828 - MessageScraper - INFO - ✅ Connected as Vedant (No username)
+2025-06-12 20:12:42,829 - MessageScraper - INFO - 🧪 Testing notification system...
+2025-06-12 20:12:42,829 - MessageScraper - INFO - 🔊 Sending LOUD Pushbullet test notification...
+2025-06-12 20:12:43,921 - MessageScraper - INFO - 📱 Notification ✅ sent via Pushbullet
+2025-06-12 20:12:43,923 - MessageScraper - INFO - ✅ LOUD Pushbullet test notification sent successfully
+2025-06-12 20:12:43,924 - MessageScraper - INFO - ✅ All components initialized successfully
+2025-06-12 20:12:43,924 - MessageScraper - INFO - 🚀 Message Scraper starting up
+2025-06-12 20:12:43,924 - MessageScraper - INFO - 📊 Config: {'telegram_chats': 2, 'notification_method': 'pushbullet', 'ai_model': 'gemini-1.5-flash', 'debug_mode': False, 'notifier_type': 'PushbulletNotifier'}
+2025-06-12 20:12:43,925 - MessageScraper - INFO - 🎯 Message scraper is now monitoring for new messages...
+2025-06-12 20:12:43,925 - MessageScraper - INFO - 🛑 Press Ctrl+C to stop monitoring
+2025-06-12 20:12:43,925 - MessageScraper - INFO - 🔄 Starting message processing queue...
+2025-06-12 20:12:44,043 - MessageScraper - INFO - ✅ Chat validated: Vedant (ID: 1786888960)
+2025-06-12 20:12:44,152 - MessageScraper - INFO - ✅ Chat validated: Dharmishtha (ID: 811761632)
+2025-06-12 20:12:44,153 - MessageScraper - INFO - 👀 Starting to monitor 2 chats...
+2025-06-12 20:12:44,154 - MessageScraper - INFO - ✅ Telegram monitoring started
+2025-06-12 20:12:48,460 - MessageScraper - INFO - 📨 Message from Telegram/Dharmishtha | Dharmishtha: Hey
+2025-06-12 20:12:48,460 - MessageScraper - INFO - 🔄 Processing message 481...
+2025-06-12 20:12:52,518 - MessageScraper - INFO - 🤖 AI processed text message in 4.06s
+2025-06-12 20:12:53,550 - MessageScraper - INFO - 📱 Notification ✅ sent via Pushbullet
+2025-06-12 20:12:53,553 - MessageScraper - INFO - ✅ Message 481 processed and notification sent
+2025-06-12 20:13:46,087 - MessageScraper - INFO - 🛑 Signal 2 received, initiating graceful shutdown...
+2025-06-12 20:13:46,096 - MessageScraper - INFO - 🔌 Disconnecting from Telegram...
+2025-06-12 20:13:46,103 - MessageScraper - INFO - ✅ Telegram client disconnected
+2025-06-12 20:15:38,272 - MessageScraper - INFO - 🚀 Message Scraper App initializing...
+2025-06-12 20:15:38,272 - MessageScraper - INFO - 🤖 Initializing AI processor...
+2025-06-12 20:15:38,272 - MessageScraper - INFO - 🤖 Gemini AI processor initialized
+2025-06-12 20:15:40,430 - MessageScraper - INFO - ✅ Gemini API test successful with gemini-1.5-flash
+2025-06-12 20:15:40,431 - MessageScraper - INFO - 📱 Initializing notification system...
+2025-06-12 20:15:40,432 - MessageScraper - INFO - 📱 Using Pushbullet notifications
+2025-06-12 20:15:40,433 - MessageScraper - INFO - 📱 Pushbullet Notifier initialized
+2025-06-12 20:15:40,434 - MessageScraper - INFO - 📱 Initializing Telegram scraper...
+2025-06-12 20:15:40,438 - MessageScraper - INFO - 🔗 Connecting to Telegram...
+2025-06-12 20:15:41,396 - MessageScraper - INFO - ✅ Connected as Vedant (No username)
+2025-06-12 20:15:41,397 - MessageScraper - INFO - 🧪 Testing notification system...
+2025-06-12 20:15:41,398 - MessageScraper - INFO - 🧪 Sending Pushbullet test notification...
+2025-06-12 20:15:42,395 - MessageScraper - INFO - 📱 Notification ✅ sent via Pushbullet
+2025-06-12 20:15:42,398 - MessageScraper - INFO - ✅ Pushbullet test notification sent successfully
+2025-06-12 20:15:42,399 - MessageScraper - INFO - ✅ All components initialized successfully
+2025-06-12 20:15:42,400 - MessageScraper - INFO - 🚀 Message Scraper starting up
+2025-06-12 20:15:42,400 - MessageScraper - INFO - 📊 Config: {'telegram_chats': 2, 'notification_method': 'pushbullet', 'ai_model': 'gemini-1.5-flash', 'debug_mode': False, 'notifier_type': 'PushbulletNotifier'}
+2025-06-12 20:15:42,401 - MessageScraper - INFO - 🎯 Message scraper is now monitoring for new messages...
+2025-06-12 20:15:42,402 - MessageScraper - INFO - 🛑 Press Ctrl+C to stop monitoring
+2025-06-12 20:15:42,402 - MessageScraper - INFO - 🔄 Starting message processing queue...
+2025-06-12 20:15:42,525 - MessageScraper - INFO - ✅ Chat validated: Vedant (ID: 1786888960)
+2025-06-12 20:15:42,695 - MessageScraper - INFO - ✅ Chat validated: Dharmishtha (ID: 811761632)
+2025-06-12 20:15:42,696 - MessageScraper - INFO - 👀 Starting to monitor 2 chats...
+2025-06-12 20:15:42,697 - MessageScraper - INFO - ✅ Telegram monitoring started
+2025-06-12 20:15:45,362 - MessageScraper - INFO - 📨 Message from Telegram/Dharmishtha | Dharmishtha: Hey
+2025-06-12 20:15:45,363 - MessageScraper - INFO - 🔄 Processing message 482...
+2025-06-12 20:15:49,316 - MessageScraper - INFO - 🤖 AI processed text message in 3.95s
+2025-06-12 20:15:50,303 - MessageScraper - INFO - 📱 Notification ✅ sent via Pushbullet
+2025-06-12 20:15:50,304 - MessageScraper - INFO - ✅ Message 482 processed and notification sent
+2025-06-12 20:18:15,871 - MessageScraper - INFO - 🛑 Signal 2 received, initiating graceful shutdown...
+2025-06-12 20:18:15,877 - MessageScraper - INFO - 🔌 Disconnecting from Telegram...
+2025-06-12 20:18:15,885 - MessageScraper - INFO - ✅ Telegram client disconnected
+2025-06-12 20:18:20,733 - MessageScraper - INFO - 🚀 Message Scraper App initializing...
+2025-06-12 20:18:20,733 - MessageScraper - INFO - 🤖 Initializing AI processor...
+2025-06-12 20:18:20,734 - MessageScraper - INFO - 🤖 Gemini AI processor initialized
+2025-06-12 20:18:22,915 - MessageScraper - INFO - ✅ Gemini API test successful with gemini-1.5-flash
+2025-06-12 20:18:22,916 - MessageScraper - INFO - 📱 Initializing notification system...
+2025-06-12 20:18:22,916 - MessageScraper - INFO - 📱 Using Pushbullet notifications
+2025-06-12 20:18:22,917 - MessageScraper - INFO - 📱 Pushbullet Notifier initialized
+2025-06-12 20:18:22,918 - MessageScraper - INFO - 📱 Initializing Telegram scraper...
+2025-06-12 20:18:22,920 - MessageScraper - INFO - 🔗 Connecting to Telegram...
+2025-06-12 20:18:24,443 - MessageScraper - INFO - ✅ Connected as Vedant (No username)
+2025-06-12 20:18:24,444 - MessageScraper - INFO - 🧪 Testing notification system...
+2025-06-12 20:18:24,445 - MessageScraper - INFO - 🧪 Sending Pushbullet test notification...
+2025-06-12 20:18:25,501 - MessageScraper - INFO - 📱 Notification ✅ sent via Pushbullet
+2025-06-12 20:18:25,502 - MessageScraper - INFO - ✅ Pushbullet test notification sent successfully
+2025-06-12 20:18:25,502 - MessageScraper - INFO - ✅ All components initialized successfully
+2025-06-12 20:18:25,502 - MessageScraper - INFO - 🚀 Message Scraper starting up
+2025-06-12 20:18:25,503 - MessageScraper - INFO - 📊 Config: {'telegram_chats': 2, 'notification_method': 'pushbullet', 'ai_model': 'gemini-1.5-flash', 'debug_mode': False, 'notifier_type': 'PushbulletNotifier'}
+2025-06-12 20:18:25,503 - MessageScraper - INFO - 🎯 Message scraper is now monitoring for new messages...
+2025-06-12 20:18:25,503 - MessageScraper - INFO - 🛑 Press Ctrl+C to stop monitoring
+2025-06-12 20:18:25,504 - MessageScraper - INFO - 🔄 Starting message processing queue...
+2025-06-12 20:18:25,625 - MessageScraper - INFO - ✅ Chat validated: Vedant (ID: 1786888960)
+2025-06-12 20:18:25,744 - MessageScraper - INFO - ✅ Chat validated: Dharmishtha (ID: 811761632)
+2025-06-12 20:18:25,745 - MessageScraper - INFO - 👀 Starting to monitor 2 chats...
+2025-06-12 20:18:25,745 - MessageScraper - INFO - ✅ Telegram monitoring started
+2025-06-12 20:18:32,357 - MessageScraper - INFO - 📨 Message from Telegram/Dharmishtha | Dharmishtha: Hey
+2025-06-12 20:18:32,358 - MessageScraper - INFO - 🔄 Processing message 484...
+2025-06-12 20:18:36,353 - MessageScraper - INFO - 🤖 AI processed text message in 4.00s
+2025-06-12 20:18:37,371 - MessageScraper - INFO - 📱 Notification ✅ sent via Pushbullet
+2025-06-12 20:18:37,373 - MessageScraper - INFO - ✅ Message 484 processed and notification sent
+2025-06-13 10:36:22,906 - MessageScraper - INFO - 🚀 Message Scraper App initializing...
+2025-06-13 10:36:22,907 - MessageScraper - INFO - 🤖 Initializing AI processor...
+2025-06-13 10:36:22,907 - MessageScraper - INFO - 🤖 Gemini AI processor initialized
+2025-06-13 10:36:25,083 - MessageScraper - INFO - ✅ Gemini API test successful with gemini-1.5-flash
+2025-06-13 10:36:25,084 - MessageScraper - INFO - 📱 Initializing notification system...
+2025-06-13 10:36:25,084 - MessageScraper - INFO - 📱 Using Pushbullet notifications
+2025-06-13 10:36:25,085 - MessageScraper - INFO - 📱 Pushbullet Notifier initialized
+2025-06-13 10:36:25,085 - MessageScraper - INFO - 📱 Initializing Telegram scraper...
+2025-06-13 10:36:25,100 - MessageScraper - INFO - 🔗 Connecting to Telegram...
+2025-06-13 10:36:26,023 - MessageScraper - INFO - ✅ Connected as Vedant (No username)
+2025-06-13 10:36:26,024 - MessageScraper - INFO - 🧪 Testing notification system...
+2025-06-13 10:36:26,024 - MessageScraper - INFO - 🧪 Sending Pushbullet test notification...
+2025-06-13 10:36:27,050 - MessageScraper - INFO - 📱 Notification ✅ sent via Pushbullet
+2025-06-13 10:36:27,051 - MessageScraper - INFO - ✅ Pushbullet test notification sent successfully
+2025-06-13 10:36:27,051 - MessageScraper - INFO - ✅ All components initialized successfully
+2025-06-13 10:36:27,052 - MessageScraper - INFO - 🚀 Message Scraper starting up
+2025-06-13 10:36:27,052 - MessageScraper - INFO - 📊 Config: {'telegram_chats': 2, 'notification_method': 'pushbullet', 'ai_model': 'gemini-1.5-flash', 'debug_mode': False, 'notifier_type': 'PushbulletNotifier'}
+2025-06-13 10:36:27,052 - MessageScraper - INFO - 🎯 Message scraper is now monitoring for new messages...
+2025-06-13 10:36:27,052 - MessageScraper - INFO - 🛑 Press Ctrl+C to stop monitoring
+2025-06-13 10:36:27,052 - MessageScraper - INFO - 🔄 Starting message processing queue...
+2025-06-13 10:36:27,178 - MessageScraper - INFO - ✅ Chat validated: Vedant (ID: 1786888960)
+2025-06-13 10:36:27,282 - MessageScraper - INFO - ✅ Chat validated: Dharmishtha (ID: 811761632)
+2025-06-13 10:36:27,283 - MessageScraper - INFO - 👀 Starting to monitor 2 chats...
+2025-06-13 10:36:27,284 - MessageScraper - INFO - ✅ Telegram monitoring started
+2025-06-13 10:37:30,093 - MessageScraper - INFO - 📨 Message from Telegram/Dharmishtha | Dharmishtha: Hey
+2025-06-13 10:37:30,094 - MessageScraper - INFO - 🔄 Processing message 488...
+2025-06-13 10:37:34,012 - MessageScraper - INFO - 🤖 AI processed text message in 3.92s
+2025-06-13 10:37:34,955 - MessageScraper - INFO - 📱 Notification ✅ sent via Pushbullet
+2025-06-13 10:37:34,956 - MessageScraper - INFO - ✅ Message 488 processed and notification sent
+2025-06-13 10:38:25,212 - MessageScraper - INFO - 📨 Message from Telegram/Dharmishtha | Vedant Sutariya: Hey
+2025-06-13 10:38:25,212 - MessageScraper - INFO - 🔄 Processing message 489...
+2025-06-13 10:38:29,228 - MessageScraper - INFO - 🤖 AI processed text message in 4.02s
+2025-06-13 10:38:30,207 - MessageScraper - INFO - 📱 Notification ✅ sent via Pushbullet
+2025-06-13 10:38:30,208 - MessageScraper - INFO - ✅ Message 489 processed and notification sent
+2025-06-13 10:41:27,054 - MessageScraper - INFO - 📊 Status: 2 messages processed, uptime: 0:05:00.002160
+2025-06-13 10:46:27,060 - MessageScraper - INFO - 📊 Status: 2 messages processed, uptime: 0:10:00.008281
+2025-06-13 10:47:15,674 - MessageScraper - INFO - 🛑 Signal 2 received, initiating graceful shutdown...
+2025-06-13 10:47:15,681 - MessageScraper - INFO - 🔌 Disconnecting from Telegram...
+2025-06-13 10:47:15,687 - MessageScraper - INFO - ✅ Telegram client disconnected
+2025-06-13 10:47:37,042 - MessageScraper - INFO - 🚀 Message Scraper App initializing...
+2025-06-13 10:47:37,043 - MessageScraper - INFO - 🤖 Initializing AI processor...
+2025-06-13 10:47:37,043 - MessageScraper - INFO - 🤖 Gemini AI processor initialized
+2025-06-13 10:47:39,497 - MessageScraper - INFO - ✅ Gemini API test successful with gemini-1.5-flash
+2025-06-13 10:47:39,497 - MessageScraper - INFO - 📱 Initializing notification system...
+2025-06-13 10:47:39,498 - MessageScraper - INFO - 📱 Using Pushbullet notifications
+2025-06-13 10:47:39,498 - MessageScraper - INFO - 📱 Pushbullet Notifier initialized
+2025-06-13 10:47:39,498 - MessageScraper - INFO - 📱 Initializing Telegram scraper...
+2025-06-13 10:47:39,502 - MessageScraper - INFO - 🔗 Connecting to Telegram...
+2025-06-13 10:47:40,855 - MessageScraper - INFO - ✅ Connected as Vedant (No username)
+2025-06-13 10:47:40,856 - MessageScraper - INFO - 🧪 Testing notification system...
+2025-06-13 10:47:40,856 - MessageScraper - INFO - 🧪 Sending Pushbullet test notification...
+2025-06-13 10:47:41,925 - MessageScraper - INFO - 📱 Notification ✅ sent via Pushbullet
+2025-06-13 10:47:41,926 - MessageScraper - INFO - ✅ Pushbullet test notification sent successfully
+2025-06-13 10:47:41,926 - MessageScraper - INFO - ✅ All components initialized successfully
+2025-06-13 10:47:41,927 - MessageScraper - INFO - 🚀 Message Scraper starting up
+2025-06-13 10:47:41,927 - MessageScraper - INFO - 📊 Config: {'telegram_chats': 3, 'notification_method': 'pushbullet', 'ai_model': 'gemini-1.5-flash', 'debug_mode': False, 'notifier_type': 'PushbulletNotifier'}
+2025-06-13 10:47:41,927 - MessageScraper - INFO - 🎯 Message scraper is now monitoring for new messages...
+2025-06-13 10:47:41,928 - MessageScraper - INFO - 🛑 Press Ctrl+C to stop monitoring
+2025-06-13 10:47:41,928 - MessageScraper - INFO - 🔄 Starting message processing queue...
+2025-06-13 10:47:42,104 - MessageScraper - INFO - ✅ Chat validated: Vedant (ID: 1786888960)
+2025-06-13 10:47:42,237 - MessageScraper - INFO - ✅ Chat validated: Dharmishtha (ID: 811761632)
+2025-06-13 10:47:42,372 - MessageScraper - INFO - ✅ Chat validated: Test1 (ID: 2713415706)
+2025-06-13 10:47:42,372 - MessageScraper - INFO - 👀 Starting to monitor 3 chats...
+2025-06-13 10:47:42,372 - MessageScraper - INFO - ✅ Telegram monitoring started
+2025-06-13 10:48:17,455 - MessageScraper - INFO - 📨 Message from Telegram/Test1 | Test1: hi
+2025-06-13 10:48:17,456 - MessageScraper - INFO - 🔄 Processing message 3...
+2025-06-13 10:48:19,908 - MessageScraper - INFO - 📨 Message from Telegram/Test1 | Test1: hi
+2025-06-13 10:48:21,368 - MessageScraper - INFO - 🤖 AI processed text message in 3.91s
+2025-06-13 10:48:22,410 - MessageScraper - INFO - 📱 Notification ✅ sent via Pushbullet
+2025-06-13 10:48:22,411 - MessageScraper - INFO - ✅ Message 3 processed and notification sent
+2025-06-13 10:48:22,412 - MessageScraper - INFO - 🔄 Processing message 4...
+2025-06-13 10:48:26,364 - MessageScraper - INFO - 🤖 AI processed text message in 3.95s
+2025-06-13 10:48:27,267 - MessageScraper - INFO - 📱 Notification ✅ sent via Pushbullet
+2025-06-13 10:48:27,268 - MessageScraper - INFO - ✅ Message 4 processed and notification sent
+2025-06-13 10:49:16,118 - MessageScraper - INFO - 📨 Message from Telegram/Test1 | Test1: [photo]
+2025-06-13 10:49:16,118 - MessageScraper - INFO - 🔄 Processing message 5...
+2025-06-13 10:49:24,502 - MessageScraper - INFO - 🤖 AI processed image message in 8.38s
+2025-06-13 10:49:25,427 - MessageScraper - INFO - 📱 Notification ✅ sent via Pushbullet
+2025-06-13 10:49:25,427 - MessageScraper - INFO - ✅ Message 5 processed and notification sent
+2025-06-13 10:51:30,128 - MessageScraper - INFO - 📨 Message from Telegram/Test1 | Test1: [photo]
+2025-06-13 10:51:30,130 - MessageScraper - INFO - 🔄 Processing message 6...
+2025-06-13 10:51:37,540 - MessageScraper - INFO - 🤖 AI processed image message in 7.41s
+2025-06-13 10:51:38,603 - MessageScraper - INFO - 📱 Notification ✅ sent via Pushbullet
+2025-06-13 10:51:38,604 - MessageScraper - INFO - ✅ Message 6 processed and notification sent
+2025-06-13 10:52:41,925 - MessageScraper - INFO - 📊 Status: 4 messages processed, uptime: 0:04:59.998096
+2025-06-13 10:57:41,927 - MessageScraper - INFO - 📊 Status: 4 messages processed, uptime: 0:09:59.999977
+2025-06-13 10:58:42,248 - MessageScraper - INFO - 🛑 Signal 2 received, initiating graceful shutdown...
+2025-06-13 10:58:42,255 - MessageScraper - INFO - 🔌 Disconnecting from Telegram...
+2025-06-13 10:58:42,262 - MessageScraper - INFO - ✅ Telegram client disconnected
