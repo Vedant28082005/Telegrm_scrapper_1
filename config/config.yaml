@@ -1,0 +1,135 @@
+# Forex Trading Message Scraper Configuration
+
+# API Credentials
+telegram:
+  api_id: "29960514"
+  api_hash: "69ed874d27b66cd2759a422ae758a5c9"
+  phone_number: "+91 8128855182"
+  session_name: "forex_message_scraper"
+  target_chats: 
+    - 1786888960
+    - 1739079964  # Your private chat
+    - 811761632
+    - -1002713415706
+    - -1002565878353   # Another trading group
+    # Add your forex signal channels/groups here
+
+discord:
+  user_token: ""
+  target_channels: []
+  enabled: false
+
+# Gemini AI for Forex Analysis
+gemini:
+  api_key: "AIzaSyCEa21gUQ66hKeEK1bpIh1x7HnoHcK71C4"
+  model: "gemini-1.5-flash"  # Fast and cost-effective for trading
+  vision_model: "gemini-1.5-flash"  # For chart analysis
+  max_tokens: 400  # Optimized for trading signals
+
+# Notification settings for Trading Alerts
+notifications:
+  method: "pushbullet"  # Reliable for trading alerts
+  
+  # Pushbullet for instant trading notifications
+  pushbullet:
+    access_token: "o.oZdbs5Q9Dn7xTs7sG649PIdhnfJ1YZl6"
+  
+  # Trading-specific notification behavior
+  duration: 30  # Quick alert duration
+  sound: true   # Essential for trading alerts
+  vibration: true
+  priority: "urgent"  # High priority for trades
+
+# Forex Message Processing
+message_format:
+  template: |
+    🔔 **FOREX TRADE SIGNAL**
+    
+    📈 **Instrument**: {instrument}
+    💰 **Entry**: {entry}
+    🛑 **Stop Loss**: {stop_loss}
+    🎯 **Take Profit**: {take_profit}
+    📊 **Risk/Reward**: {risk_reward}
+    📱 **Direction**: {direction}
+    ⏰ **Timeframe**: {timeframe}
+    
+    📝 **Analysis**: {analysis}
+    👤 **Source**: {sender} ({source})
+    
+    ---
+    🤖 AI Trading Analysis
+    ⚡ Ready to Trade!
+  
+  # Trading-specific settings
+  max_length: 400  # Mobile-optimized for quick reading
+  include_timestamp: true
+  include_source: true
+  include_sender: true
+  
+  # Forex-specific formatting
+  forex_settings:
+    extract_pairs: true      # Extract currency pairs
+    extract_prices: true     # Extract price levels
+    extract_direction: true  # Extract BUY/SELL signals
+    calculate_rr: true       # Calculate risk-reward ratios
+    technical_analysis: true # Include technical analysis
+
+# System Settings
+system:
+  log_level: "INFO"
+  log_file: "logs/forex_scraper.log"
+  database_path: "data/forex_messages.db"
+  rate_limit_delay: 2  # Quick processing for trading
+  max_retries: 3
+  
+  # Trading-specific settings
+  trading_mode: true
+  chart_analysis: true
+  signal_validation: true
+
+# Forex Trading Filters
+forex_filters:
+  # Only process messages containing these keywords
+  required_keywords:
+    - "BUY"
+    - "SELL" 
+    - "LONG"
+    - "SHORT"
+    - "ENTRY"
+    - "SL"
+    - "TP"
+    - "STOP"
+    - "TARGET"
+  
+  # Currency pairs to monitor
+  monitored_pairs:
+    - "EURUSD"
+    - "GBPUSD" 
+    - "USDJPY"
+    - "USDCHF"
+    - "AUDUSD"
+    - "USDCAD"
+    - "NZDUSD"
+    - "XAUUSD"  # Gold
+    - "XAGUSD"  # Silver
+    - "BTCUSD"  # Bitcoin
+    - "ETHUSD"  # Ethereum
+  
+  # Skip messages with these words (noise filtering)
+  exclude_keywords:
+    - "spam"
+    - "advertisement"
+    - "promotion"
+    - "casino"
+    - "loan"
+
+# Development/Debug settings
+debug:
+  enabled: false
+  test_mode: false  # Set to true for testing without real trades
+  console_output: true
+  
+  # Trading debug options
+  show_extracted_data: true
+  log_ai_analysis: true
+  save_chart_images: true
